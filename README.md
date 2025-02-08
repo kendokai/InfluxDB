@@ -14,49 +14,6 @@ Ensure you have the following installed and configured:
 - **Node Version Manager (NVM)**
 - **Docker inside WSL**
 
-### **Installation Steps**
-
-1. **Clone the repository into WSL:**
-
-   ```sh
-   git clone <repository-url>
-   cd InfluxUI-UG10
-   ```
-
-2. **Open the repository with Docker.**
-
-3. **Switch to the ****`dev`**** branch:**
-
-   ```sh
-   git checkout dev
-   ```
-
-4. **Create an empty ****`.env`**** file:**
-
-   - You may need to ensure the file extension is correct.
-
-5. **Install dependencies:**
-
-   ```sh
-   cd frontend
-   nvm install --lts && npm install
-   ```
-
-6. **Build the frontend:**
-
-   ```sh
-   npm run build
-   ```
-
-7. **Run the InfluxDB setup script:**
-
-   ```sh
-   cd scripts/setup-influx
-   go run .
-   ```
-
----
-
 ## **Starting the Server**
 
 1. **Build the frontend:**
