@@ -126,25 +126,6 @@ If you are running a container that has **Grafana**, follow these steps:
 
 ---
 
-## **Contributing**
-
-1. **Create a feature branch:**
-   ```sh
-   git checkout -b feature-branch-name
-   ```
-2. **Make your changes and commit:**
-   ```sh
-   git add .
-   git commit -m "Describe your changes"
-   ```
-3. **Push your changes to GitHub:**
-   ```sh
-   git push origin feature-branch-name
-   ```
-4. **Open a pull request on GitHub.**
-
----
-
 ## **Troubleshooting**
 
 ### **Docker Issues**
