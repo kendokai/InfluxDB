@@ -1,0 +1,17 @@
+{
+	"name": "Go",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "dev-container",
+	"features": {
+	  "ghcr.io/devcontainers/features/node": {
+		"version": "20.16.0"
+	  }
+	},
+	"workspaceFolder": "/workspace",
+	"portsAttributes": {
+	  "8086": {
+		"label": "InfluxDB",
+		"onAutoForward": "notify"
+	  }
+	}
+  }
